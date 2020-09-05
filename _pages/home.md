@@ -1,4 +1,10 @@
-
+---
+layout: single
+classes: wide
+description: Homepage
+read_time: false
+comments: false
+---
 
 Hi! I am Jeonghyun Woo, a first-year Ph.D. student in [Electrical and Computer Engineering](https://ece.illinois.edu/) at the [University of Illinois at Urbana-Champaign](https://illinois.edu/). I am working with [Prof. Jian Huang](http://jianh.web.engr.illinois.edu/) at the Systems Platform Research Group. My research interest lies in computer architecture and systems, specifically in memory and storage systems.
 
