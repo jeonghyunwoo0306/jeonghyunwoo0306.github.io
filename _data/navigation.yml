@@ -1,8 +1,8 @@
 # main links
 main:
-  - title: "CV"
+        #  - title: "CV"
     # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "Projects"
+    #  - title: "Projects"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
