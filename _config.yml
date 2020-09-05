@@ -98,6 +98,8 @@ author:
   bio              : "Ph.D. Student in Electrical and Computer Engineering at the University of Illinois at Urbana-Champaign"
   location         : "Urbana-Champaign, IL, USA"
   email            : "jwoo15@illinois.edu"
+  github           : "jeonghyunwoo0306"
+  # linkedin           : "jeonghyunwoo0306"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
