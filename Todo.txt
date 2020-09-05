@@ -1,0 +1,9 @@
+TODO:LIST
+1. Update CVs and Posting on the Homepage (After papers accepted in HPCA or ISCA)
+2. Add Google Scholar or DBLP Link (After papers accepted in HPCA or ISCA)
+3. Add Publications section: [pdf][GitHub][slides][bibtex] format
+4. Add Reserarch Projects section
+5. Add Research Experiences section 
+6. Add Teaching Experiences section
+7. Add Awards section
+8. Add talks section
