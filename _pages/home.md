@@ -2,6 +2,7 @@
 layout: single
 classes: wide
 description: Homepage
+permalink: /
 read_time: false
 comments: false
 ---
