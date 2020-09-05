@@ -69,8 +69,8 @@ yandex_site_verification :
 naver_site_verification  :
 
 # Social Sharing
-twitter:
-  username               : JeonghyunW
+# twitter:
+  # username               : JeonghyunW
 facebook:
   username               :
   app_id                 :
