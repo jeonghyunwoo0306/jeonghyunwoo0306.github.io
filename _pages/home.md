@@ -7,15 +7,13 @@ read_time: false
 comments: false
 ---
 
-Hi! I am Jeonghyun Woo, a first-year Ph.D. student in [Electrical and Computer Engineering](https://ece.illinois.edu/) at the [University of Illinois at Urbana-Champaign](https://illinois.edu/). I am working with [Prof. Jian Huang](http://jianh.web.engr.illinois.edu/) at the Systems Platform Research Group. My research interest lies in computer architecture and systems, specifically in memory and storage systems.
+Hi! I am Jeonghyun Woo, a first-year Ph.D. student in [Electrical and Computer Engineering](https://ece.illinois.edu/) at the [University of Illinois at Urbana-Champaign](https://illinois.edu/). My research interest lies in computer architecture and systems, specifically in memory and storage systems.
 
 ## Education
 
 **[University of Illinois at Urbana-Champaign (UIUC)](https://illinois.edu/)**, Urbana-Champaign, IL, USA
 
 [Aug. 2020 - Current] Ph.D. student in [Electrical and Computer Engineering](https://ece.illinois.edu/)
-
-Advisor: [Prof. Jian Huang](http://jianh.web.engr.illinois.edu/)
 
 
 
