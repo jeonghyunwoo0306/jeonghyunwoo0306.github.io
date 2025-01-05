@@ -56,10 +56,12 @@
           <!-- Social Icons -->
           <div class="navbar-brand social">
             <a href="mailto:%6A%68%77%6F%6F%33%36@%65%63%65.%75%62%63.%63%61" title="email"><i class="fas fa-envelope"></i></a>
+            <a href="https://orcid.org/0000-0001-5819-0693" title="ORCID" target="_blank" rel="noopener noreferrer"><i class="ai ai-orcid"></i></a>
             <a href="https://scholar.google.com/citations?user=https://scholar.google.com/citations?user=pqtuxw4AAAAJ&amp;hl=en" title="Google Scholar" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i></a>
             <a href="https://github.com/jeonghyunwoo0306" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
             <a href="https://www.linkedin.com/in/jeonghyun-woo-809196160" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
             <a href="https://twitter.com/JeonghyunW" title="Twitter" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+            <a href="https://dblp.org/pid/309/4290.html" title="DBLP" target="_blank" rel="noopener noreferrer"><i class="ai ai-dblp"></i></a>
             
 
           </div>
@@ -131,7 +133,7 @@
 </figure>
 
             <div class="address">
-              <p style="font-size:80%">Office: 4025 Fred Kaiser, UBC</p>   <p style="font-size:80%">Email: jhwoo36[@]ece.ubc.ca</p>
+              <p style="font-size:80%">Office: 4025 Fred Kaiser, UBC</p>   <p style="font-size:80%">Email: jhwoo36[at]ece[dot]ubc[dot]ca</p>
 
             </div>
           </div>
@@ -144,7 +146,10 @@
 --- -->
 <p>I am a Ph.D. student in <strong><a href="https://ece.ubc.ca/" target="_blank" rel="noopener noreferrer">the department of Electrical and Computer Engineering (ECE)</a></strong> at <strong><a href="https://www.ubc.ca/" target="_blank" rel="noopener noreferrer">the University of British Columbia (UBC)</a></strong>, working with <strong><a href="https://prashantnair.bitbucket.io/" target="_blank" rel="noopener noreferrer">Prof. Prashant Nair</a></strong> in the Systems and Architectures (STAR) Lab.</p>
 
-<p>I am broadly interested in the areas of computer architecture and systems, security, reliability, and memory systems. I am particularly interested in enabling secure and reliable computing systems, and my current research interests include Silent Data Corruptions and Row Hammer attacks and defenses. I am also working on building high-performance and energy-efficient microarchitecture designs, including branch prediction and prefetching.</p>
+<p>I am broadly interested in computer architecture and systems, security, memory systems, and AI/ML. My current research spans both RowHammer attacks and defenses, as well as AI/ML security. In the area of RowHammer, I focus on security attacks, performance degradation (Denial-of-Service) attacks, and timing-side channel attacks. I am actively working on mitigating these attacks and enabling secure and low-overhead RowHammer mitigations. This includes the newly introduced per-row activation counting (PRAC)-based mitigations, which are expected to become standard RowHammer mitigations for future DRAM products. 
+Additionally, I am also actively exploring emerging AI/ML security threats, such as LLM Jailbreaking attacks, and developing robust defenses to mitigate these risks..</p>
+
+<p>My research has been recognized and published in top-tier venues, and my work was honored with the <strong>Best Paper Award at HPCA 2023</strong>.</p>
 
 <p>Before I joined UBC, I received my M.S. in <strong><a href="http://electronic.hanyang.ac.kr/eng/main/index.php" target="_blank" rel="noopener noreferrer">Electronics and Computer Engineering</a></strong> at <strong><a href="https://www.hanyang.ac.kr/web/eng" target="_blank" rel="noopener noreferrer">Hanyang University, Seoul, South Korea</a></strong>, in 2020. In my Master’s dissertation, I worked on developing a robust yet low overhead hardware-based Row Hammer mitigation method. I also received my B.S. in <strong><a href="http://electronic.hanyang.ac.kr/eng/main/index.php" target="_blank" rel="noopener noreferrer">Electronic Engineering</a></strong> at <strong><a href="https://www.hanyang.ac.kr/web/eng" target="_blank" rel="noopener noreferrer">Hanyang University, Seoul, South Korea</a></strong>, in 2018. In my Bachelor’s dissertation, I implemented an FPGA-based CNN accelerator using SDSoC.</p>
 
@@ -271,17 +276,18 @@
           <div class="author">
           
 
-          <em>Jeonghyun Woo</em>, Shaopeng Lin, <a href="https://prashantnair.bitbucket.io/" target="_blank" rel="noopener noreferrer">Prashant J. Nair</a>, Aamer Jaleel, and <a href="https://gururaj-s.github.io/" target="_blank" rel="noopener noreferrer">Gururaj Saileshwar</a>
+          <em>Jeonghyun Woo</em>, Shaopeng (Chris) Lin, <a href="https://prashantnair.bitbucket.io/" target="_blank" rel="noopener noreferrer">Prashant J. Nair</a>, <a href="https://www.jaleels.org/ajaleel/" target="_blank" rel="noopener noreferrer">Aamer Jaleel</a>, and <a href="https://gururaj-s.github.io/" target="_blank" rel="noopener noreferrer">Gururaj Saileshwar</a>
 </div>
 
           <!-- Journal/Book title and date -->
           <div class="periodical">
-            <em>In Proceedings of the 31st International Symposium on High-Performance Computer Architecture (HPCA)</em> 2025
+            <em>In 31st International Symposium on High-Performance Computer Architecture (HPCA)</em> 2025
           </div>
         
           <!-- Links/Buttons -->
           <div class="links">
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bibtex</a>
+            <a href="https://github.com/sith-lab/qprac" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
           </div>
           <!-- For adding info. for paper  -->
           <div class="paperinfo">
@@ -291,8 +297,8 @@
           <div class="bibtex hidden">
             <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">QPRAC</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{QPRAC: Towards Secure and Practical PRAC-based Rowhammer Mitigation using Priority Queues}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Woo, Jeonghyun and Lin, Shaopeng and Nair, Prashant J. and Jaleel, Aamer and Saileshwar, Gururaj}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 31st International Symposium on High-Performance Computer Architecture (HPCA)}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Woo, Jeonghyun and Lin, Shaopeng (Chris) and Nair, Prashant J. and Jaleel, Aamer and Saileshwar, Gururaj}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{31st International Symposium on High-Performance Computer Architecture (HPCA)}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
           </div>
@@ -320,7 +326,7 @@
 
           <!-- Journal/Book title and date -->
           <div class="periodical">
-            <em>In Proceedings of the 31st International Symposium on High-Performance Computer Architecture (HPCA)</em> 2025
+            <em>In 31st International Symposium on High-Performance Computer Architecture (HPCA)</em> 2025
           </div>
         
           <!-- Links/Buttons -->
@@ -336,7 +342,7 @@
             <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">DAPPER</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{DAPPER: A Performance-Attack-Resilient Tracker for RowHammer Defense}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Woo, Jeonghyun and Nair, Prashant J.}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 31st International Symposium on High-Performance Computer Architecture (HPCA)}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{31st International Symposium on High-Performance Computer Architecture (HPCA)}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
           </div>
@@ -364,13 +370,14 @@
 
           <!-- Journal/Book title and date -->
           <div class="periodical">
-            <em>In Proceedings of the 29th International Symposium on High-Performance Computer Architecture (HPCA)</em> 2023
+            <em>In 29th International Symposium on High-Performance Computer Architecture (HPCA)</em> 2023
           </div>
         
           <!-- Links/Buttons -->
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bibtex</a>
+            <a href="https://ieeexplore.ieee.org/document/10070999" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
             <a href="/assets/pdf/Scale-SRS-HPCA23-Camera-Ready.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
             <a href="https://github.com/STAR-Laboratory/scale-srs" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
             <a href="/assets/slides/HPCA23_Scale-SRS_slides.pptx" class="btn btn-sm z-depth-0" role="button">Slides</a>
@@ -389,7 +396,7 @@
             <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">scale-srs</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Scalable and Secure Row-Swap: Efficient and Safe Row Hammer Mitigation in Memory Systems}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Woo, Jeonghyun and Saileshwar, Gururaj and Nair, Prashant J.}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 29th International Symposium on High-Performance Computer Architecture (HPCA)}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{29th International Symposium on High-Performance Computer Architecture (HPCA)}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
           </div>
@@ -456,14 +463,93 @@
 </ol>
           </div>
 
+          <div class="publications">
+            <h2>Preprints and Under Reviews</h2>
+            <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#005a32"><a href="">ISCA</a></abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="TPRAC" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">When Mitigations Backfire: Timing Channel Attacks and Defense for PRAC-Based Rowhammer Mitigations</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          <em>Jeonghyun Woo</em>, Joyce Qu, <a href="https://gururaj-s.github.io/" target="_blank" rel="noopener noreferrer">Gururaj Saileshwar</a>, and <a href="https://prashantnair.bitbucket.io/" target="_blank" rel="noopener noreferrer">Prashant J. Nair</a>
+</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In ACM/IEEE 52nd Annual International Symposium on Computer Architecture (ISCA) <b><u>(Under Review)</u></b></em> 2025
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+          </div>
+          <!-- For adding info. for paper  -->
+          <div class="paperinfo">
+          </div>
+
+          
+        </div>
+
+
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#DC143C"><a href="">S&amp;P</a></abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="prison-break" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">PrisonBreak: Jailbreaking Large Language Models with Fewer Than Twenty-Five Targeted Bit-flips</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Zachary Coalson, <em>Jeonghyun Woo</em>, Shiyang Chen, Yu Sun, Lishan Yang, <a href="https://prashantnair.bitbucket.io/" target="_blank" rel="noopener noreferrer">Prashant J. Nair</a>, Bo Fang, and <a href="https://sanghyun-hong.com/" target="_blank" rel="noopener noreferrer">Sanghyun Hong</a>
+</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In 46th IEEE Symposium on Security and Privacy (S&amp;P) <b><u>(Under Review)</u></b></em> 2025
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="https://arxiv.org/abs/2412.07192" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
+          </div>
+          <!-- For adding info. for paper  -->
+          <div class="paperinfo">
+          </div>
+
+          
+        </div>
+
+
+      </div>
+</li>
+</ol>
+          </div>  
+
           <!-- Social -->
           <div class="social">
             <div class="contact-icons">
             <a href="mailto:%6A%68%77%6F%6F%33%36@%65%63%65.%75%62%63.%63%61" title="email"><i class="fas fa-envelope"></i></a>
+            <a href="https://orcid.org/0000-0001-5819-0693" title="ORCID" target="_blank" rel="noopener noreferrer"><i class="ai ai-orcid"></i></a>
             <a href="https://scholar.google.com/citations?user=https://scholar.google.com/citations?user=pqtuxw4AAAAJ&amp;hl=en" title="Google Scholar" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i></a>
             <a href="https://github.com/jeonghyunwoo0306" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
             <a href="https://www.linkedin.com/in/jeonghyun-woo-809196160" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
             <a href="https://twitter.com/JeonghyunW" title="Twitter" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+            <a href="https://dblp.org/pid/309/4290.html" title="DBLP" target="_blank" rel="noopener noreferrer"><i class="ai ai-dblp"></i></a>
             
 
             </div>
@@ -482,8 +568,8 @@
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2024 Jeonghyun  Woo. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme.
-Last updated: November 14, 2024.
+        © Copyright 2025 Jeonghyun  Woo. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme.
+Last updated: January 04, 2025.
       </div>
     </footer>
 
