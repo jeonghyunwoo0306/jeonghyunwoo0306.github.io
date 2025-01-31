@@ -382,11 +382,9 @@
       
       
       
+        <a href="http://arxiv.org/abs/2412.07192" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
       
       
-        
-          <a href="https://arxiv.org/abs/2412.07192" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-        
       
       
       
@@ -488,12 +486,18 @@
     <div class="links">
       
       
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      
       
       
       
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
       
       
+      
+        
+          <a href="/assets/pdf/HPCA25_QPRAC.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
       
       
       
@@ -523,6 +527,11 @@
 
     
 
+    
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>JEDEC has introduced the Per Row Activation Counting (PRAC) framework for DDR5 and future DRAMs to enable precise counting of DRAM row activations. PRAC enables a holistic mitigation of Rowhammer attacks even at ultra-low Rowhammer thresholds. PRAC uses an Alert Back-Off (ABO) protocol to request the memory controller to issue Rowhammer mitigation requests. However, recent PRAC implementations are either insecure or impractical. For example, Panopticon, the inspiration for PRAC, is rendered insecure if implemented per JEDEC’s PRAC specification. On the other hand, the recent UPRAC proposal is impractical since it needs oracular knowledge of the ‘top-N’ activated DRAM rows that require mitigation. This paper provides the first secure, scalable, and practical RowHammer solution using the PRAC framework. The crux of our proposal is the design of a priority-based service queue (PSQ) for mitigations that prioritizes pending mitigations based on activation counts to avoid the security risks of prior solutions. This provides principled security using the reactive ABO protocol. Furthermore, we co-design our PSQ, with opportunistic mitigation on Refresh Management (RFM) operations and proactive mitigation during refresh (REF), to limit the performance impact of ABO-based mitigations. QPRAC provides secure and practical RowHammer mitigation that scales to Rowhammer thresholds as low as 71 while incurring a 0.8% slowdown for benign workloads, which further reduces to 0% with proactive mitigations.</p>
+      </div>
     
 
     
@@ -594,12 +603,18 @@
     <div class="links">
       
       
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      
       
       
       
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
       
       
+      
+        
+          <a href="/assets/pdf/HPCA_2025_DAPPER.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
       
       
       
@@ -627,6 +642,11 @@
 
     
 
+    
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>RowHammer vulnerabilities pose a significant threat to modern DRAM-based systems, where rapid activation of DRAM rows can induce bit-flips in neighboring rows. To mitigate this, state-of-the-art host-side RowHammer mitigations typically rely on shared counters or tracking structures. While these optimizations benefit benign applications, they are vulnerable to Performance Attacks (Perf-Attacks), where adversaries exploit shared structures to reduce DRAM bandwidth for co-running benign applications by increasing DRAM accesses for RowHammer counters or triggering repetitive refreshes required for the early reset of structures, significantly degrading performance. In this paper, we propose secure hashing mechanisms to thwart adversarial attempts to capture the mapping of shared structures. We propose DAPPER, a novel low-cost tracker resilient to Perf-Attacks even at ultra-low RowHammer thresholds. We first present a secure hashing template in the form of DAPPER-S. We then develop DAPPER-H, an enhanced version of DAPPER-S, incorporating double-hashing, novel reset strategies, and mitigative refresh techniques. Our security analysis demonstrates the effectiveness of DAPPER-H against both RowHammer and Perf-Attacks. Experiments with 57 workloads from SPEC2006, SPEC2017, TPC, Hadoop, MediaBench, and YCSB show that, even at an ultra-low RowHammer threshold of 500, DAPPER-H incurs only a 0.9% slowdown in the presence of Perf-Attacks while using only 96KB of SRAM per 32GB of DRAM memory.</p>
+      </div>
     
 
     
@@ -1258,7 +1278,7 @@
 
       
       
-        Last updated: January 29, 2025.
+        Last updated: January 30, 2025.
       
     </div>
   </footer>
