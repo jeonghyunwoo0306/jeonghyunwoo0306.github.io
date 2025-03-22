@@ -73,7 +73,10 @@ ninja.data = [{
           title: 'Received HPCA 2025 Student Travel Grant - Thank you HPCA!',
           description: "",
           section: "News",},{id: "news-qprac-won-the-distinguished-artifact-award-at-hpca-25",
-          title: 'QPRAC, won the Distinguished Artifact Award at HPCA’25!',
+          title: 'QPRAC won the Distinguished Artifact Award at HPCA’25!',
+          description: "",
+          section: "News",},{id: "news-our-paper-when-mitigations-backfire-timing-channel-attacks-and-defense-for-prac-based-rowhammer-mitigations-has-been-accepted-at-isca-25",
+          title: 'Our paper, When Mitigations Backfire: Timing Channel Attacks and Defense for PRAC-Based Rowhammer...',
           description: "",
           section: "News",},{
         id: 'social-email',
