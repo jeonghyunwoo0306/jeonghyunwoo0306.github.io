@@ -76,7 +76,10 @@ ninja.data = [{
           title: 'QPRAC won the Distinguished Artifact Award at HPCA’25!',
           description: "",
           section: "News",},{id: "news-our-paper-when-mitigations-backfire-timing-channel-attacks-and-defense-for-prac-based-rowhammer-mitigations-has-been-accepted-at-isca-25",
-          title: 'Our paper, When Mitigations Backfire: Timing Channel Attacks and Defense for PRAC-Based Rowhammer...',
+          title: 'Our paper, When Mitigations Backfire: Timing Channel Attacks and Defense for PRAC-Based RowHammer...',
+          description: "",
+          section: "News",},{id: "news-received-isca-2025-student-travel-grant-thank-you-isca",
+          title: 'Received ISCA 2025 Student Travel Grant - Thank you ISCA!',
           description: "",
           section: "News",},{
         id: 'social-email',
