@@ -297,7 +297,7 @@
       <div class="news">
   
     
-    <div class="table-responsive" style="max-height: 10vw; overflow-y: scroll;">
+    <div class="table-responsive" style="max-height: 15vw; overflow-y: scroll;">
       <table class="table table-sm table-borderless">
         
         
@@ -664,9 +664,13 @@
         <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
       
       
+        <a href="https://doi.org/10.1145/3695053.3731007" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
       
         <a href="http://arxiv.org/abs/2505.10111" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
       
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
       
       
       
@@ -681,6 +685,10 @@
         <a href="https://github.com/STAR-Laboratory/PRAC_TC_ISCA25" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
       
       
+      
+        
+          <a href="/assets/slides/ISCA25_When_Mitigations_Backfire_slides.pptx" class="btn btn-sm z-depth-0" role="button">Slides</a>
+        
       
       
     </div>
@@ -715,10 +723,29 @@
     
       <!-- Hidden abstract block -->
       <div class="abstract hidden">
-        <p>Per Row Activation Counting (PRAC) has emerged as a robust framework for mitigating RowHammer (RH) vulnerabilities in modern DRAM systems. However, we uncover a critical vulnerability: a timing channel introduced by the Alert Back-Off (ABO) protocol and Refresh Management (RFM) commands. We present PRACLeak, a novel attack that exploits these timing differences to leak sensitive information, such as secret keys from vulnerable AES implementations, by monitoring memory access latencies. To counter this, we propose Timing-Safe PRAC (TPRAC), a defense that eliminates PRAC-induced timing channels without compromising RH mitigation efficacy. TPRAC uses Timing-Based RFMs, issued periodically and independent of memory activity. It requires only a single-entry in-DRAM mitigation queue per DRAM bank and is compatible with existing DRAM standards. Our evaluations demonstrate that TPRAC closes timing channels while incurring only 3.4% performance overhead at the RH threshold of 1024.</p>
+        <p>Per Row Activation Counting (PRAC) has emerged as a robust framework for mitigating RowHammer (RH) vulnerabilities in modern DRAM systems. However, we uncover a critical vulnerability: a timing channel introduced by the Alert Back-Off (ABO) protocol and Refresh Management (RFM) commands. We present PRACLeak, a novel attack that exploits these timing differences to leak sensitive information, such as secret keys from vulnerable AES implementations, by monitoring memory access latencies.To counter this, we propose Timing-Safe PRAC (TPRAC), a defense that eliminates PRAC-induced timing channels without compromising RH mitigation efficacy. TPRAC uses Timing-Based RFMs, issued periodically and independent of memory activity. It requires only a single-entry in-DRAM mitigation queue per DRAM bank and is compatible with existing DRAM standards. Our evaluations demonstrate that TPRAC closes timing channels while incurring only 3.4% performance overhead at the RH threshold of 1024.</p>
       </div>
     
 
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">woo_isca25_prac_timing_channel</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{When Mitigations Backfire: Timing Channel Attacks and Defense for PRAC-Based RowHammer Mitigations}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Woo, Jeonghyun and Qu, Joyce and Saileshwar, Gururaj and Nair, Prashant J.}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{52nd Annual International Symposium on Computer Architecture (ISCA)}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">isbn</span> <span class="p">=</span> <span class="s">{9798400712616}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Association for Computing Machinery}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{New York, NY, USA}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://doi.org/10.1145/3695053.3731007}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1145/3695053.3731007}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{739–756}</span><span class="p">,</span>
+  <span class="na">numpages</span> <span class="p">=</span> <span class="s">{18}</span><span class="p">,</span>
+  <span class="na">keywords</span> <span class="p">=</span> <span class="s">{DRAM, RowHammer, Timing Channel, Security, PRAC, RFM}</span><span class="p">,</span>
+  <span class="na">series</span> <span class="p">=</span> <span class="s">{ISCA '25}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
     
 
     
@@ -832,7 +859,7 @@
           
           
             <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=pqtuxw4AAAAJ&amp;citation_for_view=pqtuxw4AAAAJ:UeHWp8X0CEIC" aria-label="Google Scholar link" role="button" rel="external nofollow noopener" target="_blank">
-              <img src="https://img.shields.io/badge/scholar-2-4285F4?logo=googlescholar&amp;labelColor=beige" alt="2 Google Scholar citations">
+              <img src="https://img.shields.io/badge/scholar-5-4285F4?logo=googlescholar&amp;labelColor=beige" alt="5 Google Scholar citations">
             </a>
           
           
@@ -968,7 +995,7 @@
           
           
             <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=pqtuxw4AAAAJ&amp;citation_for_view=pqtuxw4AAAAJ:zYLM7Y9cAGgC" aria-label="Google Scholar link" role="button" rel="external nofollow noopener" target="_blank">
-              <img src="https://img.shields.io/badge/scholar-2-4285F4?logo=googlescholar&amp;labelColor=beige" alt="2 Google Scholar citations">
+              <img src="https://img.shields.io/badge/scholar-4-4285F4?logo=googlescholar&amp;labelColor=beige" alt="4 Google Scholar citations">
             </a>
           
           
@@ -1109,7 +1136,7 @@
           
           
             <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=pqtuxw4AAAAJ&amp;citation_for_view=pqtuxw4AAAAJ:d1gkVwhDpl0C" aria-label="Google Scholar link" role="button" rel="external nofollow noopener" target="_blank">
-              <img src="https://img.shields.io/badge/scholar-55-4285F4?logo=googlescholar&amp;labelColor=beige" alt="55 Google Scholar citations">
+              <img src="https://img.shields.io/badge/scholar-58-4285F4?logo=googlescholar&amp;labelColor=beige" alt="58 Google Scholar citations">
             </a>
           
           
@@ -1348,7 +1375,7 @@
 
   
   
-    Last updated: May 28, 2025.
+    Last updated: July 01, 2025.
   
 
     </div>
