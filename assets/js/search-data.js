@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
+        },{id: "nav-academic-service",
+          title: "Academic Service",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/service/";
+          },
         },{id: "news-moved-to-a-new-website",
           title: 'Moved to a new website!',
           description: "",
@@ -81,6 +88,12 @@ ninja.data = [{
           section: "News",},{id: "news-received-isca-2025-student-travel-grant-thank-you-isca",
           title: 'Received ISCA 2025 Student Travel Grant - Thank you ISCA!',
           description: "",
+          section: "News",},{id: "news-will-serve-on-the-light-program-committee-pc-for-hpca-26",
+          title: 'Will serve on the Light Program Committee (PC) for HPCA’26.',
+          description: "",
+          section: "News",},{id: "news-will-serve-on-the-artifaction-evaluation-committee-for-iiswc-25",
+          title: 'Will serve on the Artifaction Evaluation Committee for IISWC’25.',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
@@ -122,13 +135,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=pqtuxw4AAAAJ", "_blank");
-        },
-      },{
-        id: 'social-x',
-        title: 'X',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://twitter.com/JeonghyunW", "_blank");
         },
       },{
       id: 'light-theme',
