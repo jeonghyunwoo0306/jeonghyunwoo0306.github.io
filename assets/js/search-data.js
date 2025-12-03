@@ -97,6 +97,9 @@ ninja.data = [{
           section: "News",},{id: "news-will-serve-on-the-artifaction-evaluation-committee-for-iiswc-25",
           title: 'Will serve on the Artifaction Evaluation Committee for IISWC’25.',
           description: "",
+          section: "News",},{id: "news-received-faculty-of-applied-science-graduate-award-gsi",
+          title: 'Received Faculty of Applied Science Graduate Award (GSI)!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
