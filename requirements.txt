@@ -1,0 +1,6 @@
+nbconvert
+pyyaml
+rendercv[full]
+scholarly
+httpx<0.28
+bibtexparser<2
